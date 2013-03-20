@@ -1,0 +1,8 @@
+*.class
+*.pyc
+*.pyo
+*.log
+.project
+.pydevproject
+.settings/
+server.fbp

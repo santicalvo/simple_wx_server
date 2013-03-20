@@ -1,8 +1,24 @@
 # -*- coding: utf-8 -*- 
 '''
 Created on 19/03/2013
+# simple_wx_server: A wx wrapper for simpleHTTPserver
+# Copyright 2013 Santiago Calvo
+#
+# This program is free software: you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later
+# version.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>.
+#
+# Contact the author: santicalvo@gmail.com
 
-@author: scalvofe
+@author: santi
 '''
 import sys, os
 import wx
@@ -51,7 +67,7 @@ class serverui(server_gui.Simple_Server_Gui):
         print "lanzo: ", os.getcwd()
         simpleserver.start()
         self.starts.Disable()
-        if html != "" and (html.endswith("html") or html.endswith("html")) :
+        if html != "" and (html.endswith("html") or html.endswith("htm")) :
             simpleserver.openBrowser(html)
     
     def onStop( self, event ):
