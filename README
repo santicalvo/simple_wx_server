@@ -1,0 +1,10 @@
+Este programa crea un pequeño servidor local con el que podemos ejecutar archivos html.
+
+El funcionamiento es extremadamente sencillo:
+Para arrancar el servidor hacemos click en Start server y para detenerlo en el botón de stop.
+
+El selector de archivos nos permite indicar un archivo html que lanzar en nuetro navegador. 
+
+Si usamos el selector de archivos se cambia la ruta raíz del servidor a la carpeta donde esté ubicado dicho archivo.
+
+En el campo de texto aparecen los mensajes de output del servidor. Podemos guardar dichos mensajes con el botón de Save log.
