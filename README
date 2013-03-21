@@ -1,5 +1,8 @@
 Este programa crea un pequeño servidor local con el que podemos ejecutar archivos html.
 
+Es preciso instalar la librería gráfica wxpython: 
+http://wxpython.org/download.php
+
 El funcionamiento es extremadamente sencillo:
 Para arrancar el servidor hacemos click en Start server y para detenerlo en el botón de stop.
 

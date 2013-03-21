@@ -5,4 +5,6 @@
 .project
 .pydevproject
 .settings/
+src/build/
+src/dist/
 server.fbp
